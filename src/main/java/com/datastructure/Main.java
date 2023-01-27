@@ -1,8 +1,6 @@
-      /*Ability to create Linked List by appending 30 and 70 to 56
-- Node with data 56 is First Created
-- Next Append 30 to 56
-- Finally Append 70 to 30
-- LinkedList Sequence: 56->30->70*/
+     /*Ability to delete 40 from the Linked
+List sequence of 56->30->40->70
+and show the size of LinkedList is 3*/
         package com.datastructure;
 
 import java.util.Scanner;
@@ -21,6 +19,7 @@ public class Main {
         System.out.println("Enter 6 to search the data at  position "); // UC 7
         System.out.println("Enter 7 to insert  the data at index position "); // UC 8
         System.out.println("Enter 8 to delete 40 from list "); // UC 9
+
         switch (scanner.nextInt()) {
 
             case 1:
@@ -47,6 +46,8 @@ public class Main {
             case 8:
                 Operation.deleteAtIndexPosition();
                 break;
+
         }
     }
 }
+   
