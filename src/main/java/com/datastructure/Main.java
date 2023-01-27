@@ -20,6 +20,7 @@
                 System.out.println("Enter 3 to add the data at In Between "); // UC 4
                 System.out.println("Enter 4 to delete the data at first position "); // UC 5
                 System.out.println("Enter 5 to delete the data at last position "); // UC 6
+                System.out.println("Enter 6 to delete the data at last position "); // UC 7
                 switch (scanner.nextInt()) {
         
                     case 1:
@@ -36,6 +37,9 @@
                         break;
                     case 5:
                         Operation.popLast();
+                        break;
+                    case 6:
+                        Operation.search();
                         break;
                 }
             }
