@@ -1,9 +1,8 @@
-       /*Ability to create Linked List by appending 30 and 70 to 56
+      /*Ability to create Linked List by appending 30 and 70 to 56
 - Node with data 56 is First Created
 - Next Append 30 to 56
 - Finally Append 70 to 30
 - LinkedList Sequence: 56->30->70*/
-
         package com.datastructure;
 
          import java.util.Scanner;
@@ -20,7 +19,7 @@
                 System.out.println("Enter 2 to add the data at the End"); // UC 3
                 System.out.println("Enter 3 to add the data at In Between "); // UC 4
                 System.out.println("Enter 4 to delete the data at first position "); // UC 5
-        
+                System.out.println("Enter 5 to delete the data at last position "); // UC 6
                 switch (scanner.nextInt()) {
         
                     case 1:
@@ -34,6 +33,9 @@
                         break;
                     case 4:
                         Operation.pop();
+                        break;
+                    case 5:
+                        Operation.popLast();
                         break;
                 }
             }
