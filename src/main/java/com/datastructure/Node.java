@@ -1,7 +1,6 @@
 package com.datastructure;
 
 public class Node {
-    
     int key;
     Node next;
         public Node(int key)
@@ -10,4 +9,3 @@ public class Node {
             this.next=null;
         }
     }
-    
