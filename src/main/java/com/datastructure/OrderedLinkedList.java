@@ -1,4 +1,4 @@
-package com.datastructure;
+package com.bridgelabz.datastructure;
 
 public class OrderedLinkedList<T extends Comparable <T>> {
     
