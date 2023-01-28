@@ -4,7 +4,7 @@
 - Finally Append 70 to 30
 - LinkedList Sequence: 56->30->70*/
 
-        package com.datastructure;
+        package com.bridgelabz.datastructure;
 
          import java.util.Scanner;
 
